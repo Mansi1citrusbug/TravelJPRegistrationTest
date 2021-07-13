@@ -1,0 +1,315 @@
+.row-custom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.row-custom .col-left {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row-custom .col-left .step-timeline ul li p {
+  font-size: 14px;
+}
+
+.row-custom .col-right {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-div {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2) !important;
+}
+
+.step-timeline {
+  background-color: transparent;
+  min-height: 40px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+  padding: 20px;
+}
+
+.step-timeline ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.step-timeline ul::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 80%;
+  left: 0px;
+  top: 0px;
+  right: 0;
+  margin: 0 auto;
+  background-color: #9d9d9d;
+  border-radius: 100px;
+  display: block;
+  clear: both;
+}
+
+.step-timeline ul li.done::after {
+  height: 18px;
+  width: 18px;
+  top: -23px;
+}
+
+.step-timeline ul li.done::before {
+  width: 100%;
+  left: 50%;
+}
+
+.step-timeline ul li.done::after {
+  background-color: #0635C9;
+}
+
+.step-timeline ul li.done:last-child::before {
+  display: none;
+}
+
+.step-timeline ul li.done p {
+  color: #000202;
+}
+
+.step-timeline ul li.active::before {
+  width: 50%;
+  left: 50%;
+}
+
+.step-timeline ul li.active::after {
+  background-color: #0635C9;
+}
+
+.step-timeline ul li.active p {
+  color: #000202;
+}
+
+.step-timeline ul li.active:last-child::before {
+  display: none;
+}
+
+.step-timeline ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  width: 100%;
+  float: none;
+  position: relative;
+  text-align: center;
+}
+
+.step-timeline ul li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  left: 0px;
+  top: -15px;
+  background-color: #0635C9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 99;
+}
+
+.step-timeline ul li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 0px;
+  right: 0;
+  margin: 0 auto;
+  top: -20px;
+  background-color: #9d9d9d;
+  border-radius: 100px;
+  border: 2px solid #FAFAFA;
+  z-index: 99;
+}
+
+.step-timeline ul li p {
+  font-size: 16px;
+  color: #9d9d9d;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0;
+}
+
+.banner-registration {
+  min-height: 300px;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.footer-bottom-row .step-timeline {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .banner-registration {
+    min-height: 200px;
+  }
+  .step-timeline {
+    padding: 20px 0 30px 0;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.2) !important;
+  }
+  .step-timeline ul li p span {
+    display: none;
+  }
+  .step-timeline ul li.done:last-child {
+    display: block;
+  }
+  .step-timeline ul li.done:last-child p {
+    width: 100%;
+  }
+  .step-timeline ul li.done:last-child p span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: -400%;
+    top: 0;
+  }
+  .step-timeline ul li.active {
+    display: block;
+  }
+  .step-timeline ul li.active p {
+    width: 100%;
+  }
+  .step-timeline ul li.active p span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .step-timeline ul li:nth-child(1) p span {
+    left: 0%;
+  }
+  .step-timeline ul li:nth-child(2) p span {
+    left: -100%;
+  }
+  .step-timeline ul li:nth-child(3) p span {
+    left: -200%;
+  }
+  .step-timeline ul li:nth-child(4) p span {
+    left: -300%;
+  }
+  .step-timeline ul li:nth-child(5) p span {
+    left: -400%;
+  }
+  .row-custom {
+    padding: 10px 0px;
+  }
+  .row-custom .step-timeline {
+    margin-top: 0;
+    bottom: 60px;
+    top: auto;
+    position: absolute;
+    padding-bottom: 4;
+    padding-bottom: 65px;
+  }
+  .row-custom .btn-skip {
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+    z-index: 999999;
+  }
+  .row-custom .btn-common {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row-custom .col-left {
+    width: 100%;
+    margin-right: 6px;
+  }
+  .row-custom .col-right {
+    width: 100%;
+    margin-left: 6px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .step-timeline {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .row-custom {
+    padding: 15px 0;
+  }
+  .row-custom .step-timeline {
+    padding: 20px;
+    position: absolute;
+    bottom: 65px;
+    top: auto;
+    background-color: #ffff;
+  }
+}
+/*# sourceMappingURL=step-timeline.css.map */

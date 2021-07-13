@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Google+</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.4852152,11.9852658 C15.9985823,11.9852658 17.377519,12.5621772 18.4151392,13.5082025 C17.192962,14.6647595 17.2330633,14.7331139 16.7527595,15.2143291 C16.1526076,14.7171646 15.4982278,14.3603544 14.4852152,14.3603544 C12.5690127,14.3603544 11.0734177,15.916557 11.0734177,17.8364051 C11.0734177,19.7557975 12.5690127,21.312 14.4852152,21.312 C16.3786329,21.312 17.1478481,20.4940253 17.6427342,18.9920506 C16.9674122,18.9920506 15.5653961,18.9935444 14.8798671,18.9943237 L14.4852152,18.9947848 L14.4852152,16.6775696 L20.0943797,16.6775696 C20.4849114,19.4814684 19.306481,23.6870886 14.4852152,23.6870886 C11.2597975,23.6870886 8.64455696,21.0677468 8.64455696,17.8364051 C8.64455696,14.6046076 11.2597975,11.9852658 14.4852152,11.9852658 Z M25.009519,14.7659241 L25.009519,16.7933165 L27.0332658,16.7933165 L27.0332658,18.241519 L25.009519,18.241519 L25.009519,20.3272405 L23.5640506,20.3272405 L23.5640506,18.241519 L21.4819747,18.241519 L21.4819747,16.7933165 L23.5640506,16.7933165 L23.5640506,14.7659241 L25.009519,14.7659241 Z" id="path-1"></path>
+        <filter x="-5.4%" y="-8.5%" width="121.8%" height="134.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.235276442 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-527.000000, -565.000000)">
+            <g id="Group-4" transform="translate(128.000000, 120.000000)">
+                <g id="Login" transform="translate(199.000000, 433.000000)">
+                    <g id="Gggle" transform="translate(192.000000, 0.000000)">
+                        <g id="Google+">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

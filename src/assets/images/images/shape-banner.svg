@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="861px" viewBox="0 0 1440 861" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape-banner" transform="translate(0.000000, 0.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M1440,859.924248 L1440,569.578084 C1440,191.405599 1439.49938,2.29089208 1438.49815,2.23396481 C1402.9982,0.23468676 1312.49832,0.23468676 1202.49846,2.30393635 C891.028826,8.16311116 841.49892,240.05168 841.49892,550.036151 C841.49892,743.572987 714.737176,846.985504 461.21369,860.273702 C378.809828,864.592823 225.071931,849.64836 0,815.440312 L0,859.924248 L1440,859.924248 Z" transform="translate(720.000000, 430.871570) scale(-1, 1) rotate(-180.000000) translate(-720.000000, -430.871570) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1171px" height="343px" viewBox="0 0 1171 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>pattern01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L1161,0 C1166.52285,-1.01453063e-15 1171,4.4771525 1171,10 L1171,333 C1171,338.522847 1166.52285,343 1161,343 L10,343 C4.4771525,343 6.76353751e-16,338.522847 0,333 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <linearGradient x1="100%" y1="50%" x2="1.60736909%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#727272" stop-opacity="0.274229677" offset="0%"></stop>
+            <stop stop-color="#727272" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#727272" stop-opacity="0.274229677" offset="0%"></stop>
+            <stop stop-color="#727272" offset="98.3926309%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pattern01">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" transform="translate(585.500000, 171.500000) scale(1, -1) translate(-585.500000, -171.500000) " xlink:href="#path-1"></use>
+            <g id="Group-29" opacity="0.2" mask="url(#mask-2)">
+                <g transform="translate(-241.000000, -314.000000)">
+                    <ellipse id="Oval" stroke="url(#linearGradient-3)" cx="324.059717" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-6" stroke="url(#linearGradient-4)" cx="341.502024" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-7" stroke="url(#linearGradient-4)" cx="358.944332" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-8" stroke="url(#linearGradient-4)" cx="375.468623" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-9" stroke="url(#linearGradient-4)" cx="392.910931" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-10" stroke="url(#linearGradient-4)" cx="410.353239" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-11" stroke="url(#linearGradient-4)" cx="427.795547" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-12" stroke="url(#linearGradient-4)" cx="445.237854" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-13" stroke="url(#linearGradient-4)" cx="461.762146" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-14" stroke="url(#linearGradient-4)" cx="479.204453" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-15" stroke="url(#linearGradient-4)" cx="496.646761" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-16" stroke="url(#linearGradient-4)" cx="514.089069" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-17" stroke="url(#linearGradient-4)" cx="531.531377" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-18" stroke="url(#linearGradient-4)" cx="548.055668" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-19" stroke="url(#linearGradient-4)" cx="565.497976" cy="353" rx="324.059717" ry="353"></ellipse>
+                    <ellipse id="Oval-Copy-20" stroke="url(#linearGradient-4)" cx="582.940283" cy="353" rx="324.059717" ry="353"></ellipse>
+                </g>
+            </g>
+            <g id="Group-29-Copy" opacity="0.2" mask="url(#mask-2)" stroke="#727272">
+                <g transform="translate(936.000000, 9.000000)">
+                    <ellipse id="Oval" cx="431.916856" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-6" cx="454.866743" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-7" cx="478.734624" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-8" cx="500.766515" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-9" cx="523.716401" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-10" cx="546.666287" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-11" cx="570.534169" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-12" cx="593.484055" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-13" cx="615.515945" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-14" cx="638.465831" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                    <ellipse id="Oval-Copy-15" cx="662.333713" cy="470.5" rx="431.916856" ry="470.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
