@@ -7,7 +7,6 @@ import {
   Stepidskiptoend
 } from "../actions/RegistrationActions";
 import { useSelector, useDispatch } from "react-redux";
-import "../assets/js/custom.js"
 
 export default function Passwordsetupstep7() {
   const passworddata = useSelector((state) => state.section.staticjson);
