@@ -6,7 +6,7 @@ import {Provider} from "react-redux";
 
 
 
-const registration = lazy(() => import('./componenets/userRegistration'));
+const registration = lazy(() => import('./componenets/UserRegistration'));
 
 
 
