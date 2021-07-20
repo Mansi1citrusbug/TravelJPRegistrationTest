@@ -25,6 +25,9 @@ export default function Passwordsetupstep7() {
       };
       dispatch(AddDetails(Adddata));
     }
+    else {
+      dispatch(Stepidreset());
+    }
   };
 
 
