@@ -18,7 +18,6 @@ export default function Loginregistrationstep1() {
 
   const clickSkiptoend = () => {
     continuebtnvalidation();
-    debugger
     if (errors.iserror === "false") {
       dispatch(Stepidskiptoend());
       const Adddata = {
