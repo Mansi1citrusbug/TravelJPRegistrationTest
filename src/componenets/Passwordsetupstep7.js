@@ -7,6 +7,7 @@ import {
   Stepidskiptoend
 } from "../actions/RegistrationActions";
 import { useSelector, useDispatch } from "react-redux";
+import "../assets/js/custom"
 
 export default function Passwordsetupstep7() {
   const passworddata = useSelector((state) => state.section.staticjson);
@@ -29,7 +30,25 @@ export default function Passwordsetupstep7() {
       dispatch(Stepidreset());
     }
   };
+  $('#show_password2').on('click', function(){  
+    var passwordField = $('#confirm-password');  
+    var passwordFieldType = passwordField.attr('type');
+    
+    if(passwordField.val() != '')
+    {
+        if(passwordFieldType == 'password')  
+        {  
+            passwordField.attr('type', 'html');  
+            $(this).html('<i class="material-icons password-hide">remove_red_eye</i>');  
+        }  
+        else  
+        {  
+            passwordField.attr('type', 'password');  
+            $(this).html('<i class="material-icons password-view">remove_red_eye</i>');     
+        }
+    }
 
+}); 
 
   const clickcontinue = () => {
     continuebtnvalidation();

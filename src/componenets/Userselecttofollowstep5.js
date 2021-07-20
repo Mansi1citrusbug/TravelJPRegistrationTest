@@ -68,6 +68,7 @@ export default function Userselecttofollowstep5() {
     const value = evt.target.value;
     if (value !== "") {
       for (let index = 0; index < selecteduserset.length; index++) {
+        debugger
         if (
           selecteduserset[index].title.includes(value) ||
           selecteduserset[index].email.includes(value)
@@ -139,7 +140,7 @@ export default function Userselecttofollowstep5() {
                 <img src={img} className="img-fluid img-user" alt="follow" />
               </div>
               <div className="check-title-row">
-                <h4>{title}</h4>
+                <h3>{title}</h3>
                 <p>{email}</p>
               </div>
             </label>
